@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+floci-credentials.json
+*.tfvars (si contient des valeurs sensibles)
+
+# Node / JS
+node_modules/
+dist/
+.env
+.env.local
+bun.lock
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
