@@ -2,7 +2,7 @@ variables {
   project_id = "floci-local"
 }
 
-# Test 1 : Vérification des noms et de la config pour l'environnement Dev
+# test 1 : vérification des noms et de la config pour l'environnement Dev
 run "verify_dev_naming_and_config" {
   command = plan
 
@@ -22,7 +22,7 @@ run "verify_dev_naming_and_config" {
   }
 }
 
-# Test 2 : Vérification des noms et de la config pour l'environnement Prod
+# test 2 : vérification des noms et de la config pour l'environnement Prod
 run "verify_prod_naming_and_config" {
   command = plan
 
