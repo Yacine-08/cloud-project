@@ -1,0 +1,5 @@
+project_id         = "floci-local"
+environment        = "prod"
+region             = "us-central1"
+cloud_run_image    = "gcr.io/cloudrun/hello"
+scheduler_schedule = "0 0 * * *"

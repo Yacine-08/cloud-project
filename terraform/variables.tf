@@ -44,7 +44,7 @@ variable "zone" {
 variable "gcp_endpoint" {
   description = "Endpoint local du provider GCP Floci"
   type        = string
-  default     = "http://localhost:4588/"
+  default     = "http://localhost:4588"
 
   validation {
     condition     = can(regex("^https?://", var.gcp_endpoint))
